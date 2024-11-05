@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Oleo Script", system-ui;
+}
+/* styling of home */
+.home{
+    background:url(/week3/images/Polar\ bear\,\ Spitsbergen\,\ Norway-\ JaMonkey.jpg) no-repeat center center/cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 80px;
+}
+/* styling for nav-contents */
+.navs{
+    display: flex;
+    justify-content: space-between;
+    background: lightcoral;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+
+
+    
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+.logo img{
+    font-size: 20px;
+    
+}
+.logo h2{
+    font-size: 30px;
+    color: darkblue;
+    
+}
+.nav_links span{
+    padding: 10px;
+    color: yellow;
+    font-size: 15px;
+    line-height: 90px;
+    
+}
+/* styling hover efftects  */
+.nav_links span:hover{
+    cursor: pointer;
+    text-decoration: underline cadetblue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 10px ;
+    width: 20px;
+    transition: all .3s;
+}
+
+/* styling for description  */
+.description{
+    background: url(/images/mmg.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+
+  
+    
+
+}
+.description h2{
+    font-size: 20px;
+    color: white;
+
+
+    
+    
+    
+}
+.description p{
+    font-size: 30px;
+    color:yellow;
+    padding: 10px 0;
+    position: relative;
+    top: 30px;
+
+}
+
+/* styling for bio */
+.bio{
+    background: white;
+    display: inline-flex;
+    
+
+}
+.img{
+    position: relative;
+    top: 180px;
+    left: 70px;
+    background-color: transparent;
+    animation-name: mac;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;   
+}
+@keyframes mac {
+    0%{
+       transform: scale(0);
+       transition: .5s ease-in-out;
+    }
+    25%, 50%, 100%{
+        transform: scale(1.0, 1.0);
+        transition: .5s ease-in-out;
+        
+
+    }
+    
+}
+.me{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    position: relative;
+    left: 170px;
+    top: 20px;
+     
+}
+.me span{
+    font-size: 25px;
+    
+}
+.P{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    right: 220px;
+
+
+}
+
+/* styling of the skili display */
+.skill_display{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    
+    
+}
+.web_design{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: yellow;
+    height: 30px;
+    width: 550px;
+    position: relative;
+    left: 110px;
+    right: 70px;
+    bottom: 40px;
+
+}
+.web1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    height: 29px;
+    width: 450px;
+    
+}
+.web1 p{
+    font-size: 20px;
+    color: white;
+}
+/* styling for div2 */
+.web_design1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: red;
+    height: 30px;
+    width: 560px;
+    position: relative;
+    bottom: 7px;
+    left: 110px;
+    top: 1px;
+
+}
+.web2{
+    border: 1px solid black;
+    border-radius:  10px;
+    background: black;
+    height: 28px;
+    width: 350px;
+    
+}
+.web2 span{
+    font-size: 20px;
+    color: white;
+}
+/* styling for div3*/
+.Web_Design{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: blue;
+    height: 30px;
+    width: 557px;
+    position: relative;
+    top: 30px;
+    left: 110px;
+    
+}
+.Web{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    height: 28px;
+    width: 420px;
+}
+.Web span{
+    font-size: 20px;
+    color: white;
+    
+
+}
+/* styling for info */
+.Info{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+    
+}
+.cv{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    height: 45px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    right: 90px;
+
+}
+.box1{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    height: 45px;
+    width: 150px;
+}
+.box1 span{
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+}
+.contact{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    height: 45px;
+    width: 150px;
+    position: relative;
+    left: 152px;
+    bottom: 45px;
+
+
+}
+.box2{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: lightseagreen;
+    height: 45px;
+    width: 150px;
+   
+}
+.box2 span{
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+}
+
+/* styling for containers */
+.myservices{
+    background: lightgray;
+
+}
+.myservices H1{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 10px;
+
+
+}
+
+.container1, .container2, .container3, .container4{
+    background: white;
+    border: 2px solid  green;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(10, 150, 150);
+    margin: 0 2px;
+  
+
+}
+
+.container1 h2, .container2 h2, .container3 h2, .container4 h2{
+    font-size: 15px;
+    color:darkblue;
+    display: flex;
+    justify-content: center;
+
+}
+.container1 p, .container2 p, .container3 p, .container4 p{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#i{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    color: green;
+}
+/* styling with hover effects */
+.container1:hover{
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background: lightblue;
+}
+.container2:hover{
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background: lightblue;
+}
+.container3:hover{
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background: lightblue;
+}
+.container4:hover{
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background: lightblue;
+}
+/* styling for my works */
+.work_section{
+    background: lightyellow;
+}
+.work_section h1{
+    font-size: 35px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.details div{
+    border: 2px solid black;
+    border-radius: 15px;
+    background: lightcoral; 
+    box-shadow: 0 0 20px black;
+    padding: 20px;
+
+}
+.details div img{
+    position: relative;
+    left: 40px;
+}
+.details div h2{
+    display: flex;
+    justify-content: center;
+}
+/* styling for contact section */
+.contact_section{
+    background: black;
+    padding: 80px;
+    
+    
+}
+.contact_section h1{
+    font-size: 40px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+.contacts_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 40px;
+    color:black
+    
+
+}
+.contacts i{
+    font-size: 30px;
+    color: red;
+    padding: 10px 10px;
+}
+.contact_icons{
+    font-size: 30px;
+    color: white;
+    
+}
+.contact_icons i{
+    margin: 0 15px;
+}
+#but{
+    background: red;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+/* styling for form container */
+#form_container{
+    
+}
+#name, #emails{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+    margin: 20px 0;
+    
+}
+#readonly{
+    border: 2px solid black;
+    border-radius: 30px;
+    outline: green;
+}
+#textarea{
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.bat{
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    background: pink;
+}
+/* .menu{
+    display: none;
+} */

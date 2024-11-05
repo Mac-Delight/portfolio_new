@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            display: grid;
+            min-height: 100vh;
+            place-content: center;
+            align-items: center;
+            
+        }
+        #readonly{
+            padding: 35px;
+        }
+        .input{
+            padding: 80px 0;
+            border: none;
+            background: gray;
+            outline: none;
+            width: 100%;
+            height: 50px;
+        }
+        .calculator_buttons{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        .calculator_buttons button{
+            padding: 10px;
+            background: black;
+            font-size: 19px;
+            color: yellow;
+            border: none;
+            border-radius: 50%;
+        }
+        .special{
+            color: rgb(241, 182, 71);
+        }
+        #equal{
+            background: blue;
+            color:  yellow;
+            
+    
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <!-- container for the entire calculator -->
+         <div class="calculator_Container">
+                <input type="text" id="readonly" readonly>
+                <br>
+                <br>
+            <div class="calculator_buttons">
+                <button class="special">AC</button>
+                <button class="special">&times;</button>
+                <button class="special">%</button>
+                <button class="special">&divide;</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="special">X</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="special">-</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="special">+</button>
+                <button><i class="fa-solid fa-bolt special"></i></button>
+                <button>0</button>
+                <button>.</button>
+                <button id="equal">=</button>
+        
+
+            </div>
+
+         </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/8d79b4e86f.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --light-gray: #e8e4f6;
+    --transparent-blue: #778ee9;
+    --light-green: #08903e;
+    --light-white: #f1f1f1;
+}
+.home{
+    background: linear-gradient(rgb(40, 70, 50, 0.4), rgb(50, 159, 70, 0.6)),
+    url(/week3/images/gamingstore2.jpg) no-repeat center center/cover;
+}
+.nav_contents{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_links{
+    padding: 15px;
+}
+.nav_links ul {
+    display: flex;
+    list-style-type: none;
+    color: var(--light-white);
+}
+.nav_links ul li{
+    padding: 12px;
+    font-size: 18px;
+}
+.nav.links ul li:hover{
+    background-color: var(--light-green);
+    transition: all .3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contents{
+    color: var(--light-white);
+    text-decoration: none;
+}
+
+/* for description */
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 270px;
+}
+.description h2{
+    font-size: 25px;
+    color: var(--light-white);
+}
+
+.Buttons{
+    margin: 30px;
+}
+.Buttons button{
+    padding: 15px 65px;
+    background: transparent;
+    margin: 0 15px;
+    color: var(--white-color);
+    border-radius: 35px;
+    color: var(--light-white);
+    border: 10px solid var(--light-green); 
+}
+/* .buttons button:hover{
+    background: var(--light-white);
+    color: var(--white-color);
+    cursor: pointer;
+    transition:  .4s;
+} */

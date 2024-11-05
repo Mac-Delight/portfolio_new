@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+            
+        }
+        .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .parent div{
+            background: blue;
+            padding: 10px;
+            margin: 10px;            
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            color: yellow;
+            line-height: 400%;
+
+        }
+        .div1{
+            animation-name: mac;
+            animation-duration: 10s;
+            animation-delay: none;
+            animation-iteration-count: infinite ;
+        }
+        @keyframes mac {
+            from{position: relative; top: 0;}
+            to{position: relative; top: 200px ;}
+            
+        }
+        .div2{
+            animation-name: ihechy ;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes ihechy {
+            from{position: relative; top: 0;}
+            to{position: relative; top: 200px ;}
+            
+        }
+        .div3{
+            animation-name: nwa;
+            animation-duration: 10s;
+            animation-delay: 4s;
+        }
+        @keyframes identifier {
+            from{position: relative; top: 0;}
+            to{position: relative; top: 200px ;}  
+        }
+        .div3{
+            animation-name: delight;
+            animation-duration: 10s;
+            animation-delay: 5s;
+        }
+        @keyframes delight {
+            from{position: relative; top: 0;}
+            to{position: relative; top: 200px ;}
+        
+        }
+        .div4{
+            animation-name: goat;
+            animation-duration: 10s;
+            animation-delay: 8s;
+        }
+        @keyframes goat {
+            from{position: relative; top: 0;}
+            to{position: relative; top: 200px ;}
+            
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="parent">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+
+    </div>
+</body>
+</html>
